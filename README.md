@@ -15,7 +15,7 @@ We're going to create several data structures and the methods most commonly used
 “In computer science, a data structure is a data organization, management, and storage format that enables efficient access and modification. __More precisely, a data structure is a collection of data values, the relationships among them within computer memory, and the functions or operations that can be applied to the data.__”
 
 
-## RELEASE 0: Construct a Stack, Queue, and Linked List
+## Construct a Stack, Queue, and Linked List
 (Please Watch The Video Links)
 - [Stacks & Queues](https://youtu.be/wjI1WNcIntg) (Stacks are LIFO "Last in, First out" and have `push` and `pop` methods. Queues are FIFO "First in, First out" and have `enqueue` and `dequeue` methods)
 - [Linked Lists](https://youtu.be/njTh_OwMljA) (Linked Lists utilize `Nodes` at each individual 'point' in the Linked list. Each `Node` has a `data` value and `next` value that points to the next `Node`. Linked Lists have an `insert`, `remove`, `display`, and `search` methods)
