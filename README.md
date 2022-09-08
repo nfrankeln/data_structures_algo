@@ -88,7 +88,8 @@ A classic problem for trees is how to traverse them — i.e., visit and process 
 __Breadth-first:__ start at level 0, then go through all nodes at level 1, then all nodes at level 2, etc. This is meaningful when tree level actually has some meaning; for example, a hierarchical org chart. It is less useful for a BST, where levels don't usually have intrinsic meaning.
 
 __Depth-first:__ go down paths to certain stopping points before moving on to the next branch. Three types:
-pre-order: process the current node value, then go down the left branch, then the right branch. This processes parents before leaves, so can be used to copy a tree.
+pre-order: process the current node value, then go down the left branch, then the right branch. 
+
 * in-order: process all the left children (lesser values), then this node's value, then the right children (greater values). This is the most useful for a BST as it respects the intrinsic ordering of the tree; values are processed from smallest to greatest.
 * post-order: process all the left children, then right children, then this node's value. This processes leaves before parents, so can be used in languages with explicit memory management to delete nodes in a safe way.
 
